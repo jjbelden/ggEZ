@@ -1,0 +1,21 @@
+Package: ggEZ
+Type: Package
+Title: Introductory Shortcuts for ggplot Hurdles 
+Version: 0.1.0
+Authors@R: person("Jackson", "Belden", , "jbelden@wesleyan.edu", 
+      role = c("aut", "cre"),)
+Description: Uses simple syntax to allow users to ask for recomendations on 
+      ways to improve their ggplots. They may ask for help with color, labels, or 
+      clustered data. The program will both graph modifications of their graph and 
+      return the code, allowing the user to reproduce those graphs for themselves.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Imports:
+    stringr,
+    ggplot2
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
